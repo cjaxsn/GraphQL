@@ -1,0 +1,30 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Test Project",
+  "keywords": [
+    "GraphQL"
+  ],
+  "homepage": "https://github.com/cjaxsn/GraphQL#readme",
+  "bugs": {
+    "url": "https://github.com/cjaxsn/GraphQL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjaxsn/GraphQL.git"
+  },
+  "author": "Corey Jackson",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "graphql": "^16.14.2"
+  },
+  "allowScripts": {
+    "@apollo/protobufjs@1.2.8": true
+  }
+}
